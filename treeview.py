@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 
 root = Tk()
-root.title('Hola mundo: treeview')
+root.title('treeview')
 
 tree = ttk.Treeview(root)
 tree['columns'] = ('Nombre', 'Telefono', 'Empresa')

@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk()
-root.title('Hola mundo: sliders')
+root.title('sliders')
 
 vertical = Scale(root, from_=0, to=200)
 vertical.pack()

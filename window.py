@@ -2,7 +2,7 @@ from tkinter import *
 from PIL import ImageTk, Image
 
 root = Tk()
-root.title('Hola Mundo')
+root.title('ventanas')
 
 #solucion 1
 # def open():
@@ -37,7 +37,7 @@ def open(img):
     l2.pack()
    
 
-img = ImageTk.PhotoImage(Image.open('coliseo.jpeg'))  
+img = ImageTk.PhotoImage(Image.open('gato1.jpg'))
 btn = Button(root, text='Click', command=lambda: open(img)).pack()
 
 root.mainloop()

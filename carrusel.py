@@ -3,11 +3,11 @@ from PIL import Image, ImageTk
 
 root = Tk()
 root.title('Carrusel')
-root.geometry('250x250')
+root.geometry('850x650')
 
-img1 = ImageTk.PhotoImage(Image.open('images/1.jpg'))
-img2 = ImageTk.PhotoImage(Image.open('images/2.jpg'))
-img3 = ImageTk.PhotoImage(Image.open('images/3.jpg'))
+img1 = ImageTk.PhotoImage(Image.open('gato1.jpg'))
+img2 = ImageTk.PhotoImage(Image.open('gato2.webp'))
+img3 = ImageTk.PhotoImage(Image.open('gato3.jpg'))
 
 
 lista = [img1, img2, img3]

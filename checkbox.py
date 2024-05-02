@@ -1,7 +1,7 @@
 from tkinter import * 
 
 root = Tk()
-root.title('Hola mujndo: checkbox')
+root.title('checkbox')
 
 root.geometry('500x500')
 

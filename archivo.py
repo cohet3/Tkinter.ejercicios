@@ -3,7 +3,7 @@ from PIL import ImageTk, Image
 from tkinter import filedialog
 
 root = Tk()
-root.title('Hola mundo: archivos')
+root.title('Cargar archivos')
 
 # root.filename = filedialog.askopenfilename(title='Elige una foto', filetypes=(("Archivos PNG", "*.png"), ('Todos', '*')))
 # l = Label(root, text=root.filename)

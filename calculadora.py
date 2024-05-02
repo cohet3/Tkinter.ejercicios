@@ -5,7 +5,7 @@ from turtle import clear
 root = Tk()
 root.configure(background='#333333')
 root.title('Calculadora')
-root.geometry('386x168')
+root.geometry('300x168')
 
 equation = StringVar()
 

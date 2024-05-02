@@ -4,7 +4,7 @@ from tkinter.filedialog import askopenfile, asksaveasfilename
 class Editor(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title('GlobalMentoring.com.mx - Editor de Texto')
+        self.title('Editor de Texto')
         # Configuración tamaño mínimo de la venta
         self.rowconfigure(0, minsize=600, weight=1)
         # Configuración mínima de la segunda columna

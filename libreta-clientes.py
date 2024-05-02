@@ -1,10 +1,7 @@
+import sqlite3
 from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
-import sqlite3
-from tkinter.tix import COLUMN
-from tkinter.tix import COLUMN
-
 
 root = Tk()
 root.title('Hola Mundo: CRM')

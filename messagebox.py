@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 
 root = Tk()
-root.title('Hola Mundo')
+root.title('popUp')
 
 #def click():
     #messagebox.showwarning('Popup', 'Hola Mundo!')
@@ -31,7 +31,7 @@ root.title('Hola Mundo')
 
 def click():
     
-    respuesta = messagebox.askyesno('Hola Mundo', 'desea realizar la accion?')
+    respuesta = messagebox.askyesno('popUp', 'desea realizar la accion?')
     print(respuesta)
     if respuesta:
         messagebox.showinfo('Hola mundo', 'La respuesta fue ok')

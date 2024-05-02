@@ -1,7 +1,7 @@
 from tkinter import *
 
 root = Tk()
-root.title('Hola mundo')
+root.title('Lógica para cerrar la ventana')
 
 exit = Button(root, text='salir', command=root.quit)
 exit.pack()

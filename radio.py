@@ -2,7 +2,7 @@ from cProfile import label
 from tkinter import *
 
 root = Tk()
-root.title('Hola Mundo')
+root.title('Select')
 
 r = IntVar()
 r.set('2')

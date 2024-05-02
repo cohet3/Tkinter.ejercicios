@@ -2,7 +2,7 @@ from re import L
 from tkinter import *
 
 root =Tk()
-root.title('hola mundo')
+root.title('Button')
 
 l = Label(root, text='hola mundo')
 def click():

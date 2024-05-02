@@ -7,7 +7,7 @@ root.title('Hola mundo')
 # imagen = Image.open('coliseo.jpeg')
 # imagen.show()
 
-img = ImageTk.PhotoImage(Image.open('coliseo.jpeg'))
+img = ImageTk.PhotoImage(Image.open('gato3.jpg'))
 l = Label(image=img)
 l.pack()
 
